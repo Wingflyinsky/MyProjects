@@ -1,0 +1,16 @@
+﻿  数字图像处理2.cpp
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\bitmap.h(41): warning C4101: “y”: 未引用的局部变量
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\bitmap.h(42): warning C4101: “index”: 未引用的局部变量
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\bitmap.h(41): warning C4101: “x”: 未引用的局部变量
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(35): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(38): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(52): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(58): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\administrator\source\repos\数字图像处理2\数字图像处理2\数字图像处理2.cpp(83): warning C4018: “<”: 有符号/无符号不匹配
+  数字图像处理2.vcxproj -> C:\Users\Administrator\source\repos\数字图像处理2\Debug\数字图像处理2.exe

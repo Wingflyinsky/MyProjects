@@ -1,0 +1,25 @@
+procedure statement;
+begin
+  case token of
+  identifier:match(identifier);
+      case token of
+	  ::  match(:);
+	      match(=);
+		  exp;
+	  (:  match(();
+	      exp-list;
+		  match());11
+      else error;	
+	  end case;
+  other:match(other);
+  else error;
+  end case;
+end statement;
+
+procedure match(expectedToken);
+begin
+  if token = expectedToken then
+      getToken;
+  else error;
+  end if;
+end match;

@@ -1,0 +1,11 @@
+﻿  Main.C
+  PARSE.C
+  SCAN.c
+c:\users\administrator\source\repos\编译原理1\编译原理1\scan.c(28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  UTIL.C
+c:\users\administrator\source\repos\编译原理1\编译原理1\util.c(98): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\编译原理1\编译原理1\util.c(168): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+  c:\users\administrator\source\repos\编译原理1\编译原理1\util.c(168): note: 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  c:\users\administrator\source\repos\编译原理1\编译原理1\util.c(168): note: 缺失的可变参数 1 为格式字符串“%s”所需
+  正在生成代码...
+  编译原理1.vcxproj -> C:\Users\Administrator\source\repos\编译原理1\x64\Debug\编译原理1.exe

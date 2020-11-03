@@ -1,0 +1,10 @@
+﻿  PCA图像压缩.cpp
+d:\程序\pca图像压缩\pca图像压缩\bitmap.h(48): warning C4101: “y”: 未引用的局部变量
+d:\程序\pca图像压缩\pca图像压缩\bitmap.h(49): warning C4101: “index”: 未引用的局部变量
+d:\程序\pca图像压缩\pca图像压缩\bitmap.h(48): warning C4101: “x”: 未引用的局部变量
+d:\程序\pca图像压缩\pca图像压缩\pca图像压缩.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\pca图像压缩\pca图像压缩\pca图像压缩.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\pca图像压缩\pca图像压缩\pca图像压缩.cpp(29): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\程序\pca图像压缩\pca图像压缩\pca图像压缩.cpp(59): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\程序\pca图像压缩\pca图像压缩\pca图像压缩.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+  PCA图像压缩.vcxproj -> D:\程序\PCA图像压缩\Debug\PCA图像压缩.exe

@@ -1,0 +1,32 @@
+procedure S;
+begin
+  case token of
+  + : match(+);
+      S;
+      A;
+  *:  match(*);
+	  S;
+	  A;
+  n:  match(n);
+  else error;
+  end case;
+ end S;
+
+ procedure A;
+ begin
+   case token of
+   ( : match(();
+       S;
+	   match());
+   n:  match(n);
+   else error;
+   end case;
+ end A;
+
+ procedure match(expectedToken);
+ begin
+	 if token = expectedToken then
+		 getToken;
+	 else error;
+     end if;
+ end match;

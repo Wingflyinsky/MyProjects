@@ -1,0 +1,16 @@
+﻿  HistogramEqualization.cpp
+d:\程序\数字图像处理3\数字图像处理3\bitmap.h(41): warning C4101: “y”: 未引用的局部变量
+d:\程序\数字图像处理3\数字图像处理3\bitmap.h(42): warning C4101: “index”: 未引用的局部变量
+d:\程序\数字图像处理3\数字图像处理3\bitmap.h(41): warning C4101: “x”: 未引用的局部变量
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(35): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(38): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(52): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(58): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
+d:\程序\数字图像处理3\数字图像处理3\histogramequalization.cpp(83): warning C4018: “<”: 有符号/无符号不匹配
+  数字图像处理3.vcxproj -> D:\程序\数字图像处理3\Debug\数字图像处理3.exe

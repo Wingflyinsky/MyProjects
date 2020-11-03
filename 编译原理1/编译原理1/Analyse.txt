@@ -1,0 +1,64 @@
+program -> declaration_list
+        -> declaration declaration
+		->...type_specifier ID ( params )  compound_stmt 
+		-> void ID ( params )  compound_stmt
+		-> void main ( params )  compound_stmt
+		-> void main ( void )  compound_stmt
+		-> void main ( void )  { local_declarations statement_list }
+		->...{ statement_list }
+		-> { statement statement statement statement }
+		-> { }
+
+
+ int gcd(int u,int v)
+{
+	if(v==0)return u;
+	else return gcd(v,u-u/v*v);
+}
+
+void main(void)
+{
+	int x;int y;
+	x=input();
+	y=intput();
+	output(gcd(x,y));
+}
+
+
+
+
+        -> type_specifier ID ( params )  compound_stmt 
+		-> int ID ( params )  compound_stmt 
+		-> int gcd ( params )  compound_stmt 
+		-> int gcd ( param_list )  compound_stmt 
+		-> int gcd ( param,param )  compound_stmt 
+		-> int gcd ( type_specifier ID,param) compound_stmt 
+		-> int gcd ( int ID,param ) compound_stmt 
+		-> int gcd ( int u,param ) compound_stmt 
+		-> int gcd ( int u,type_specifier ID ) compound_stmt 
+		-> int gcd ( int u,int ID ) compound_stmt 
+		-> int gcd ( int u,int v ) compound_stmt 
+		=...compound_stmt
+		-> { local_declarations statement_list }
+		-> { statement_list }
+		-> { statement }
+		-> { selection_stmt }
+		-> { IF ( expression ) statement  ELSE statement }
+		-> { IF ( simple_expression ) statement  ELSE statement }
+		-> { if ( additive_expression relop additive_expression ) statement  ELSE statement }
+		-> { if ( term relop additive_expression ) statement  ELSE statement }
+		-> { if ( factor == additive_expression ) statement  ELSE statement }
+	    -> { if ( v == additive_expression ) statement  ELSE statement }
+	    -> { if ( v == term ) statement  ELSE statement }
+		-> { if ( v == factor ) statement  ELSE statement }
+		-> { if ( v == 0 ) statement  ELSE statement }
+		-> { if ( v == 0 ) compound_stmt  ELSE statement }
+		-> { if ( v == 0 ) { local_declarations statement_list }  ELSE statement }
+		-> { if ( v == 0 ) { statement_list }  ELSE statement }
+		-> { if ( v == 0 ) { statement statement }  ELSE statement }
+		-> { if ( v == 0 ) { return_stmt statement }  ELSE statement }
+		-> { if ( v == 0 ) { return expression statement }  ELSE statement }
+		-> ...
+		-> { if ( v == 0 ) { return u statement }  ELSE statement }
+		-> { if ( v == 0 ) { return u ; }  ELSE statement }
+
